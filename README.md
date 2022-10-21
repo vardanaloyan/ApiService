@@ -3,8 +3,13 @@
 
 This is a ApiService project with CDK development with Python.
 
+!["API"](artifacts/api.png "API")
+
+
 Make sure to install aws cdk toolkit.
 https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
+
+!["API"](artifacts/app.png "API")
 
 ```
 $ source .venv/bin/activate
