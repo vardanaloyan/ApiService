@@ -1,25 +1,10 @@
 
-# Welcome to your CDK Python project!
+# ApiService project using AWS
 
-This is a blank project for CDK development with Python.
+This is a ApiService project with CDK development with Python.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
-
-To manually create a virtualenv on MacOS and Linux:
-
-```
-$ python3 -m venv .venv
-```
-
-After the init process completes and the virtualenv is created, you can use the following
-step to activate your virtualenv.
+Make sure to install aws cdk toolkit.
+https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
 
 ```
 $ source .venv/bin/activate
