@@ -1,15 +1,30 @@
 
 # ApiService project using AWS
 
-This is a ApiService project with CDK development with Python.
+This is a ApiService project. 
 
-!["API"](artifacts/api.png "API")
+It contains the integration of the following Amazon Web Services:
+
+- API Gateway
+- Lambda Function
+- DynamoDB
+- AWS CDK -> Cloud Formation
 
 
-Make sure to install aws cdk toolkit.
+!["API"](artifacts/LLSession.drawio.png "API")
+
+
+Make sure to install aws cdk toolkit and have python3.9+ installed.
+
 https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
 
-!["API"](artifacts/app.png "API")
+Create a virtual environment
+
+```
+python3 -m venv .venv
+```
+
+Activate a virtual environment
 
 ```
 $ source .venv/bin/activate
@@ -44,5 +59,4 @@ command.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
-
-Enjoy!
+ 
