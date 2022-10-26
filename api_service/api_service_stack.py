@@ -12,7 +12,7 @@ class ApiServiceStack(Stack):
         # Defines an AWS DynamoDB resource
         table = ddb.Table(
             self,
-            "DynamoTable",
+            "Announcement",
             partition_key={"name": "title", "type": ddb.AttributeType.STRING},
             removal_policy=RemovalPolicy.DESTROY,
         )
