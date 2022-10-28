@@ -29,7 +29,7 @@ class ApiServiceStack(Stack):
                 "TABLE_NAME": table.table_name,
                 "DEFAULT_PAGINATION_SIZE": "5",
             },
-            timeout=Duration.seconds(20),
+            timeout=Duration.seconds(30),
         )
 
         # Grant DDB Read, Write permission to Lambda function
